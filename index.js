@@ -96,7 +96,7 @@ function startHumanize(bot) {
       await sleep(random(45000, 90000));
       if (cancelled) break;
       try {
-        if (Math.random() < 0.25) bot.chat('hi');
+        // if (Math.random() < 0.25) bot.chat('hi'); //Uncomment to make him say hi everytime
       } catch {}
     }
   })();
