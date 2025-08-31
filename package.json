@@ -1,0 +1,16 @@
+{
+  "name": "aternos-two-bot-unban-loop",
+  "version": "1.0.0",
+  "description": "Two alternating Mineflayer bots that pardon each other when banned, with human-like AFK activity and a tiny web server for Render.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.16.0"
+  }
+}
